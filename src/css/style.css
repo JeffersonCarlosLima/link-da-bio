@@ -20,7 +20,6 @@ body{
 }
 .logo{
     width: 30%;
-    height: 30%;
     
 }
 .texto-descricao{
@@ -44,7 +43,8 @@ body{
     box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
-@media (max-width){
+@media screen and (max-width:765px){
+    
     .logo{
         width:50%
     }
